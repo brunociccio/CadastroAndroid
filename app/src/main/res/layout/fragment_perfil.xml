@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:" />
+
+    <TextView
+        android:id="@+id/tv_idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade:" />
+
+    <TextView
+        android:id="@+id/tv_endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço:" />
+
+    <TextView
+        android:id="@+id/tv_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone:" />
+
+    <TextView
+        android:id="@+id/tv_nacionalidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nacionalidade:" />
+
+    <TextView
+        android:id="@+id/tv_ocupacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ocupação:" />
+
+    <TextView
+        android:id="@+id/tv_hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby:" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:" />
+</LinearLayout>
